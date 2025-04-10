@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jumanji Digital Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="main-container">
+    <header>
+      <h1>Welcome to the Jumanji Digital Adventure</h1>
+      <p>Embark on an epic jungle quest to unlock the secrets of the digital jungle!</p>
+      <button id="start-button">Start Quest</button>
+    </header>
+    
+    <div class="mission-screen" id="mission-screen">
+      <h2>Mission Briefing</h2>
+      <p>Prepare yourself! The jungle's secrets await. Can you crack the code?</p>
+      <button id="start-mission">Decrypt the Jungle Code</button>
+    </div>
+
+    <div class="code-crack" id="code-crack">
+      <h2>Code Cracking Challenge</h2>
+      <p>Can you crack the code of the jungle’s mysteries? Solve the puzzle to continue your journey.</p>
+      <input type="text" id="user-input" placeholder="Enter your solution">
+      <button id="check-code">Submit</button>
+      <p id="feedback"></p>
+    </div>
+
+    <div class="reward-screen" id="reward-screen">
+      <h2>Congratulations!</h2>
+      <p>You’ve cracked the jungle’s code and completed your mission. Here’s your reward:</p>
+      <div id="reward"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
