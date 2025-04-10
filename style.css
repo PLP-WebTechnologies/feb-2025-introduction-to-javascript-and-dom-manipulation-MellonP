@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3d3d3d;
+  color: #f0f0f0;
+  text-align: center;
+  background-image: url('https://example.com/jungle-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f4e1a1;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #76c747;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #5a9f3d;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+header, .mission-screen, .code-crack, .reward-screen {
+  display: none;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(34, 39, 49, 0.7); /* Darkened jungle-like feel */
+  margin: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #f4e1a1;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+#reward {
+  font-size: 1.5em;
+  color: #ffcc00;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+#user-input {
+  padding: 12px;
+  font-size: 1.2em;
+  margin-top: 15px;
+  border: 2px solid #76c747;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+#feedback {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #ff6666;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #f4e1a1;
+}
+
+input[type="text"] {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
